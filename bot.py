@@ -57,7 +57,7 @@ msgverifid = "564882746489700352"
 dejaverif = []
 giveawayid="471949512391524352"
 sondageid="471996961168293909"
-admin = "ACTIF"
+admin = "STAFF"
 
 
 # --------------------------Initialisation du bot---------------------------#
