@@ -303,7 +303,7 @@ async def kickplayer(ctx):
     timecommand = 0
     user = ctx.message.mentions[0]
     try:
-        await client.kick(target)
+        await client.kick(target,"Pas besoin de raison pour te kick petit filou")
         print("Kicked")
     except Exception:
         print("Something went wrong {}".format(Exception))
