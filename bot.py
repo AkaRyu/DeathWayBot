@@ -302,6 +302,15 @@ async def giveaway(ctx, duree: float, gagnant: int, *, gain: str):
 async def kickplayer(ctx):
     timecommand = 0
     user = ctx.message.mentions[0]
+    try:
+        await bot.kick(target)
+        await bot.say("Kicked")
+    except Exception:
+        await bot.say("Something went wrong {}".format(Exception))
+
+@kick.error
+
+  async def kick_error(error, ctx)
     await client.kick(user)
 
 
