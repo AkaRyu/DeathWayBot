@@ -74,7 +74,7 @@ async def my_background_task():
 
 @client.event
 async def on_ready():
-    await client.change_presence(game=discord.Game(name='Zenadia->z.aide'))
+    await client.change_presence(game=discord.Game(name='DeathWay->ùaide'))
     print("Bot ready")
 
 
